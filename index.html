@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manken Conde</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="landing-text">
+            <h1>Manken Conde</h1>
+            <h6>Software Engineer</h6>
+        </div>
+
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img " data-aos="fade-right" data-aos-delay="300">
+                <img src="images/pic2.jpg" alt="image">
+            </div>
+
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>My name is Manken Conde and I am a Junior Level Software Engineer. I attended the College of Staten Island as an electrical engineering student but soon realized that it wasn’t exactly what I liked to do. After 2 years of trying to find something I enjoyed, I ended up taking a course in the Engineering curriculum that involved coding in C++ . I enjoyed the course so much that I would go home, do more research and go above and beyond the assignments given by the professor. After successfully completing this course, I knew that Computer Science was the right field for me. I then decided to switch my major to Computer science, despite having already completed more than 2 years of Electrical Engineering. This was because I cared more about doing something I loved than graduating college on time with my peers. I also knew that I wanted to build things and that computer science was what I needed to help me achieve this goal. Ever since I switched my major, I have been working tirelessly to acquire skills that I need to make my projects come to life. I have been working with my peers, mentors, going to meetups, and learning courses online in order to help me achieve this goal. I am now part of the CUNY Tech Prep program, which teaches in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & scrum with Trello and Slack, test driven development, and CI/CD.                </p>
+
+                <div class="social-media">
+                    <ul class="nav-list">
+                       <li>
+                           <a href="#" class="icon-link">
+                               <i class="fab fa-linkedin"></i>
+                           </a>
+                       </li>
+                       <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item" data-aos="fade-right" data-aos-delay="300">
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/carpool-logo.png" alt="image1">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Carpool</h1>
+                
+                        <ul>
+                       <li><h6>Worked in a team of 3 to implement a software that allows people who routinely go in similar directions everyday to connect and ride together.</h6></li>
+                        <li><h6>Designed the software using Object Oriented Programming and implemented its functionalities using Java.</h6></li>
+                        <li><h6>Created and formed a database using SQLite to store the users’ information including their cars, destination, and times of departures allowing other users to be able to search for potential carpool mates.</h6></li>
+                    </ul>
+                
+                    <a href="https://github.com/mankenconde/Carpool" class="cta">View on GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-aos="fade-left" data-aos-delay="600">
+                    <div class="portfolio-description has-margin-right">
+                            <h1>Weather App</h1>
+                            <ul>
+
+                            <li><h6>Created a web-based application that allows users to check the weather in their location by entering their Zip Code.</h6></li>
+                            <li><h6>Used HTML, CSS and JavaScript to create an interactive and friendly user interface which displays and changes the background of depending on the weather.</h6></li>
+                            <li><h6>Implemented the functionalities using the openweathermap.org API and jquery along with axios to retrieve and display information relevant to the user’s input.</h6></li>
+
+                            </ul>
+                            <a href="https://github.com/mankenconde/Weather_Project" class="cta">View on GitHub</a>
+                        </div>
+                <div class="portfolio-img">
+                    <img src="images/weatherapp.png" alt="image1">
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-aos="fade-right" data-aos-delay="600">
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/patatap.png" alt="image1">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Patatap Replica</h1>
+                    <ul>
+                        <li><h6>Built a web-based application that allows users to play sounds and display beautiful colorful images by hitting a key on their keyboards.</h6></li>
+                        <li><h6>Each key corresponds to a particular sound and displays a specific colorful animated circle</h6></li>
+                        <li><h6>Used HTML, CSS and JavaScript to create a dynamic user interface (UI) and implemented the sounds and visual functionalities with Paper.js and Howler.js</h6></li>
+
+                    </ul>
+                    <a href="https://github.com/mankenconde/Patatap-replica" class="cta">View on GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-aos="fade-left" data-aos-delay="600">
+                    <div class="portfolio-description has-margin-right">
+                            <h1>Tic Tac Toe</h1>
+                            <ul>
+                                <li><h6>Simple Tic Tac Toe web based app written in javascript</h6></h6></li>
+                                <li><h6>The functionalities were implemented by using a two dimensional array in order to check for posible winning combinations</h6></h6></li>
+                                <li><h6>Used Document Object Model (DOM) manipulation methods to implement the interactivity of the app and display results of the game. </h6></h6></li>
+                            </ul>
+                            <a href="https://github.com/mankenconde/Simple-Tic-Tac-Toe-Web-App" class="cta">View on GitHub</a>
+                        </div>
+                <div class="portfolio-img">
+                    <img src="images/tic-tac-toe.png" alt="image1">
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-aos="fade-right" data-aos-delay="600">
+                    <div class="portfolio-description has-margin-right">
+                            <h1>Vi Editor Replica</h1>
+                            <ul>
+                                <li><h6>Worked in a team of 3 to implement an editor similar to the Vi Editor that allow users to edit, create, and save documents on their computers.</h6></li>
+                                <li><h6>TUsed C++ and interfaces such as Lists, Stacks, and Trees in order to successfully build the editor.</h6></li>
+                                <li><h6>Implemented functionalities such as positioning in the document, deleting, adding words, undo, redo, using Data Structures such as LinkedLists, Stacks, Queues, ArrayLists, and Trees.</h6></li>
+                            </ul>
+                            <a href="https://github.com/mankenconde/Vi-Editor-Replica" class="cta">View on GitHub</a>
+                        </div>
+                <div class="portfolio-img">
+                    <img src="images/vi-editor-replica.png" alt="image1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Work Experience</h1>
+                <h6>Past and current Jobs</h6>
+            </div>
+
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <li class="date" data-date="06-2019 - Present">
+                        <h1>CUNY TECH PREP</h1>
+                        <h5>Software Developer Student</h5>
+                        <ul>
+                            <li>Selected for a full stack JavaScript training program, as one of 125 students out of 400+ applicants</li>
+                            <li>Learn in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design,implementation, and deployment such as MVC, version control with Git/GitHub, agile & scrum with Trello and Slack, test driven development, and CI/CD</li>
+                        </ul>
+                    </li>
+                    <li class="date" data-date="04-2019 - Present">
+                        <h1>Poppin</h1>
+                        <h5>Desktop Support Associate</h5>
+                        <ul>
+                            <li>Dealt with 50-100 tickets daily to solve computer and applications based problems</li>
+                            <li>Trained over 100 employees on current and new technology adopted by the company such as Mosyle, Fuze, Back up & Sync</li>
+                            <li>Prepared software and hardware in a timely fashion using scripting and automation using Mosyle</li>
+                        </ul>
+                    </li>
+                    <li class="date" data-date="12-2018 - 04 2019">
+                        <h1>US Department of Education</h1>
+                        <h5>Technology Support Intern</h5>
+                        <ul>
+                            <li>Set up a Device management system for the school in order to support bulk device management</li>
+                            <li>Found alternative solutions for 90% of old technology in the building, saving the school over 30% of the expected expense</li>
+                            <li>Trained over 30 teachers on best practices for using the technology in the school for a longer life expectancy</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Feel free to contact me about any opportunities</h6>
+            </div>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email..." required>
+
+            </form>
+        </div>
+    </section> -->
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy: 2019 Manken Conde</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+<!-- services = experience
+portfolio = projects -->
+
+
+<!-- CONTACT FORM around 25:00 -->
+
+<!-- SKIPPED SERVICES STYLING SECTION around 1:01:11 -->
