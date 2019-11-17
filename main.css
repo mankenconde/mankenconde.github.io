@@ -619,6 +619,10 @@ li{
         right:2rem;
     }
 
+    .contact .contact-info{
+        font-size: 2rem
+    }
+
 }
 
 /*End media queries*/
