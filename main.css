@@ -51,7 +51,7 @@ img{
 
 .section-heading{
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .section-heading h1{
@@ -405,6 +405,18 @@ li{
 /*End timeline*/
 
 /*Start contact*/
+
+
+.contact .contact-info{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 2.3rem;
+}
+
+.contact #contact-title{
+    color: #fd57bf;
+    padding-right: 1.5rem;
+}
 /*End contact*/
 
 /*Start footer*/
@@ -575,9 +587,29 @@ li{
         font-size: 1.6rem;
     }
 
-    .timeline .date::before{
+    /* .timeline .date::before{
         font-size: 1.4rem;
+    } */
+
+    .timeline .date::before{
+        content: attr(data-date);
+        left:-13rem;
+        text-align: right;
+        min-width:12rem;
+        font-size:1.4rem;
+        color: #fd57bf;
     }
+    
+    .timeline .date::after{
+        content: '';
+        box-shadow: 0 0 0 0;
+        border-radius: 100px;
+        left: -4rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        background-color: #31353400; /*transparent*/
+    }
+
 
     form{
         width:100%;
